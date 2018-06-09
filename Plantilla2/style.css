@@ -1,0 +1,118 @@
+/* COPYRIGHT CLANTEMPLATES.COM & OPSERTY.COM  2006 ALL RIGHTS RESERVED*/
+html, body {
+	background-color:#371603;
+	margin:0;
+	padding:0;
+	font-family: "MS Serif", Georgia, Times, "Times New Roman", serif;
+	font-size:13px;
+	color:#FFFFFF;
+}
+	h1 {
+		font-size:13px;
+		font-weight:normal;
+		color:#f1b126;
+		width:175px;	height:26px;
+		background-image:url(i/h1_bg.gif);
+		margin:0; padding:10px 0 0 50px;
+		
+	}
+	a, a:link, a:visited {
+		color:#FFFFFF;
+	}
+	a:hover {
+		text-decoration:none;
+	}
+#wrap {
+	margin:0 auto;
+	width:999px;
+	padding:0;
+}
+	#content {
+		margin:0 auto;
+		background:#371603 url(i/content_bg.gif) top center;
+		height:607px;
+		width:893px;
+		padding:0;
+	}
+		#left {
+			float:left;
+			width:215px;
+			margin:13px 0 0 38px;
+		}
+		* html #left {
+			margin-left:18px;
+		}
+		.side-bg  {
+			background-image: url(i/nav_bg.gif) ;
+			background-repeat:no-repeat;
+			background-position:bottom right;
+			height:206px;
+			width:205px;
+			padding:0 0 0 20px;
+			margin:0 0 0 auto;
+			color:#FFFFFF;
+			font-size:12px;
+		}
+			.side-bg ul {list-style:none;margin:10px 0 0 5px; padding:0;}
+			.side-bg li {
+				list-style:none;
+				background-image:url(i/nav_li.gif);
+				background-repeat:no-repeat;
+				width:172px;
+				height:17px;
+				margin:5px 0 0 0;
+				padding:2px 0 0 15px;
+				display:block;
+
+			}
+			.side-bg li a, .side-bg li a:link, .side-bg li a:visited {
+				display:block; 
+				color:#FFFFFF;
+				text-decoration:none;
+			}
+			.side-bg li a:hover {
+				color:#f1b126;
+				display:block;
+			}
+			#rosterdata {
+				background-image:url(i/roster_data_bg.gif);
+				background-repeat:no-repeat;
+				background-position:left;
+				width:206px;
+				height:19px;
+				text-align:center;
+				padding-top:3px;
+				font-size:12px;
+			}
+		#right, #middle{
+			float:right;
+			width:215px;
+			margin:13px 32px 0 0;
+		}
+		* html #right {margin-right:12px;}
+			#right .side-bg {
+				background-image:url(i/right_bg.gif);
+			}
+		#middle {
+			width:328px; height:488px;
+			margin:5px 20px 0 0 ;	padding:0 10px 5px 10px;
+			background:#371603 url(i/middle_bg.gif) top center;
+			
+			overflow:auto;
+			color:#FFF;
+		}
+		#middle ul {
+			margin-left:20px;
+			list-style-type:lower-roman;
+		}
+		#middle li { margin-left:0;}
+
+a:link img, a img { 
+	border:none;
+}
+#header {
+	margin-bottom:-15px;
+}
+* html #header {
+	margin-bottom:0;
+}
